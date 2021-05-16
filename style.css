@@ -51,7 +51,10 @@
 
 ::-webkit-scrollbar {
     width: 0.5em;
-}
+}'
+
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 
 ::-webkit-scrollbar-track {
     background-color: black;
@@ -63,7 +66,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #365;
+    background-color: #222;
 }
 
 img {
@@ -723,5 +726,3 @@ body {
         transform: translate(0, -0px);
     }
 }
-overflow: scroll;
--webkit-overflow-scrolling: touch;
