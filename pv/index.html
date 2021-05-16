@@ -1,0 +1,156 @@
+<!-- Made with ♥ by Arhaan Bahadur -->
+<!-- https://arhaanb.github.io -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/icon.png" type="image/png">
+    <title>Pavan Varma</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/53f1b26a84.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169267861-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169267861-1');
+    </script>
+</head>
+
+<body id="body">
+
+    <nav id="navbar">
+        <div class="container">
+            <div class="flexnav">
+                <ul>
+                    <a href="./">
+                        <li class="logo">Pavan Varma</li>
+                    </a>
+                </ul>
+                <ul class="navico">
+                    <div id="lines">
+                        <span class="icon-menu"></span>
+                    </div>
+
+                    <div id="cross">
+                        <span class="icon-close"></span>
+                    </div>
+                </ul>
+                <ul class="normal">
+                    <a href="./street">
+                        <li>Street</li>
+                    </a>
+                    <a href="./portrait">
+                        <li>Portrait</li>
+                    </a>
+                    <a href="./misc">
+                        <li>Misc.</li>
+                    </a>
+                    <a href="./about">
+                        <li>About</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container fixedcon">
+        <div id="nav-hid">
+            <ul>
+                <a href="./street">
+                    <li>Street</li>
+                </a>
+                <a href="./portrait">
+                    <li>Portrait</li>
+                </a>
+                <a href="./misc">
+                    <li>Misc.</li>
+                </a>
+                <a href="./about">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div id="container">
+        <div class="steam" id="steam1"> </div>
+        <div class="steam" id="steam2"> </div>
+        <div class="steam" id="steam3"> </div>
+        <div class="steam" id="steam4"> </div>
+        <div class="steam" id="steam5"> </div>
+        <div class="steam" id="steam6"> </div>
+        <div class="steam" id="steam7"> </div>
+        <div class="steam" id="steam8"> </div>
+        <div class="steam" id="steam9"> </div>
+        <div class="steam" id="steam10"> </div>
+        <div class="steam" id="steam11"> </div>
+        <div class="steam" id="steam12"> </div>
+
+        <div id="cup">
+            <div id="cup-body">
+                <div id="cup-shade"></div>
+            </div>
+            <div id="cup-handle"></div>
+        </div>
+
+        <div id="saucer"></div>
+
+        <div id="shadow"></div>
+    </div>
+    <div>
+        <div class="mmh text-item seven columns">
+
+
+
+            <h1 class="ml2" style="background-color:whitesmoke;">Pavan Varma Vegesna
+            </h1>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        </div>
+
+
+
+
+
+        <footer>
+            <div class="container">
+                <div class="center icons resp-align">
+                    <a href="https://www.instagram.com/pavan_varma_vegesna/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                    document.getElementById("nav-hid").style.top = "13vw";
+                } else {
+                    document.getElementById("navbar").style.top = "-200px";
+                    document.getElementById("nav-hid").style.top = "-200px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        </script>
+        <script src="./main.js"></script>
+</body>
+
+</html>
